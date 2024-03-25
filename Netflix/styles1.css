@@ -1,0 +1,98 @@
+
+:root {
+    --primary-color: #E1B0AC;    /* Cavern Pink */
+    --secondary-color: #F2D4D6;  /* Light Pink */
+    --tertiary-color: #213F99;   /* Navy Blue */
+    --accent-color: #54416d;     /* Accent color */
+    --dark-color: #2b235a;       /* Dark color */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_bar {
+    background-color: var(--primary-color);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 100%;
+}
+
+h1 {
+    margin-right: auto;
+}
+
+select, .signin {
+    padding: 10px;
+    border: none;
+    background-color: var(--accent-color);
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+select:hover, .signin:hover {
+    background-color: var(--dark-color);
+}
+
+.content {
+    margin-top: auto;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+}
+
+a[href="moviezzz_homepage.html"] {
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 0 5px 5px 0;
+    transition: background-color 0.3s ease;
+}
+
+a[href="moviezzz_homepage.html"]:hover {
+    background-color: var(--tertiary-color);
+}
+
+footer {
+    background-color: var(--dark-color);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
